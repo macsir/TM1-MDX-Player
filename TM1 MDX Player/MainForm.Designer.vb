@@ -80,12 +80,12 @@ Partial Class MainForm
         '
         Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripMenuItem1})
         Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
-        Me.ContextMenuStrip1.Size = New System.Drawing.Size(136, 26)
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(153, 48)
         '
         'ToolStripMenuItem1
         '
         Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
-        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(135, 22)
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
         Me.ToolStripMenuItem1.Text = "Show MDX"
         '
         'MenuStrip1
@@ -101,30 +101,30 @@ Partial Class MainForm
         '
         Me.MainToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.OptionsToolStripMenuItem, Me.AboutToolStripMenuItem, Me.ToolStripSeparator2, Me.ExitToolStripMenuItem})
         Me.MainToolStripMenuItem.Name = "MainToolStripMenuItem"
-        Me.MainToolStripMenuItem.Size = New System.Drawing.Size(41, 20)
+        Me.MainToolStripMenuItem.Size = New System.Drawing.Size(46, 20)
         Me.MainToolStripMenuItem.Text = "Main"
         '
         'OptionsToolStripMenuItem
         '
         Me.OptionsToolStripMenuItem.Name = "OptionsToolStripMenuItem"
-        Me.OptionsToolStripMenuItem.Size = New System.Drawing.Size(122, 22)
+        Me.OptionsToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
         Me.OptionsToolStripMenuItem.Text = "Options"
         '
         'AboutToolStripMenuItem
         '
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(122, 22)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
         Me.AboutToolStripMenuItem.Text = "About"
         '
         'ToolStripSeparator2
         '
         Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
-        Me.ToolStripSeparator2.Size = New System.Drawing.Size(119, 6)
+        Me.ToolStripSeparator2.Size = New System.Drawing.Size(113, 6)
         '
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(122, 22)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
         Me.ExitToolStripMenuItem.Text = "Exit"
         '
         'ServersToolStripMenuItem1
@@ -137,13 +137,13 @@ Partial Class MainForm
         '
         Me.RunMDXToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.InputToolStripMenuItem})
         Me.RunMDXToolStripMenuItem.Name = "RunMDXToolStripMenuItem"
-        Me.RunMDXToolStripMenuItem.Size = New System.Drawing.Size(62, 20)
+        Me.RunMDXToolStripMenuItem.Size = New System.Drawing.Size(69, 20)
         Me.RunMDXToolStripMenuItem.Text = "Run MDX"
         '
         'InputToolStripMenuItem
         '
         Me.InputToolStripMenuItem.Name = "InputToolStripMenuItem"
-        Me.InputToolStripMenuItem.Size = New System.Drawing.Size(137, 22)
+        Me.InputToolStripMenuItem.Size = New System.Drawing.Size(134, 22)
         Me.InputToolStripMenuItem.Text = "MDX Editor"
         '
         'MainForm

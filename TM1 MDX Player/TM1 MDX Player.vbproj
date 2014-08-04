@@ -8,8 +8,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{25427BFE-BCAB-4A1F-852E-824F940249A9}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>Player.My.MyApplication</StartupObject>
-    <RootNamespace>Player</RootNamespace>
+    <StartupObject>TM1MDXPlayer.My.MyApplication</StartupObject>
+    <RootNamespace>TM1MDXPlayer</RootNamespace>
     <AssemblyName>TM1 MDX Player</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
@@ -68,9 +68,6 @@
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Applix.TM1.API">
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\ibm\cognos\tm1\TM1Web\bin\Applix.TM1.API.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
@@ -149,6 +146,8 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="TM1Api.vb" />
+    <Compile Include="TM1View.vb" />
     <Compile Include="UserInfo.vb" />
   </ItemGroup>
   <ItemGroup>

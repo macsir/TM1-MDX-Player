@@ -1,12 +1,12 @@
 ﻿Option Explicit On
-Imports Applix.TM1.API
+'Imports TM1API.DLL
 
 Public Class LoginForm
     Public adminHost, server As String
 
     Private Sub MakeTree(ByVal objsDataServer As TM1Server, ByVal e As EventArgs)
 
-        Dim i As Integer, j As Integer, k As Integer
+        Dim j As Integer, k As Integer
         Dim strServer As String, strCube As String, strView As String
         Dim node As TreeNode
 

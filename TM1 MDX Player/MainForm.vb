@@ -1,5 +1,5 @@
 ﻿Option Explicit On
-Imports Applix.TM1.API
+'Imports Applix.TM1.API
 
 
 Public Class MainForm
@@ -304,5 +304,21 @@ Public Class MainForm
     Private Sub InputToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles InputToolStripMenuItem.Click
         Dim MF As New MDXForm(selectedServer)
         MF.Show()
+    End Sub
+
+    Private Sub ToolStripMenuItem1_Click(sender As System.Object, e As System.EventArgs) Handles ToolStripMenuItem1.Click
+        Dim strSplit() As String
+        Dim serverName As String, cubeName As String, viewName As String
+
+        'MsgBox(Me.TreeView1.SelectedNode.FullPath)
+        strSplit = Split(Me.TreeView1.SelectedNode.FullPath, "\", -1, CompareMethod.Text)
+        serverName = strSplit(0).Substring(0, strSplit(0).IndexOf("(") - 1)
+        cubeName = strSplit(1)
+        viewName = strSplit(2)
+
+        Dim MF As New MDXForm(selectedServer)
+        MF.TextBox1.Text = TM1View.TM1MDXView(serverName, cubeName, viewName)
+        MF.Show()
+
     End Sub
 End Class

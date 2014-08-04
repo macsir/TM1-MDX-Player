@@ -8,10 +8,10 @@ Imports System.Runtime.InteropServices
 
 ' 查看程序集特性的值
 
-<Assembly: AssemblyTitle("Test")> 
-<Assembly: AssemblyDescription("")> 
+<Assembly: AssemblyTitle("TM1 MDX Player")> 
+<Assembly: AssemblyDescription("by Morgan")> 
 <Assembly: AssemblyCompany("")> 
-<Assembly: AssemblyProduct("Test")> 
+<Assembly: AssemblyProduct("TM1 MDX Player")> 
 <Assembly: AssemblyCopyright("Copyright ©  2013")> 
 <Assembly: AssemblyTrademark("")> 
 

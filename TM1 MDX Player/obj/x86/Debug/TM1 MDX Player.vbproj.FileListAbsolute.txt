@@ -144,3 +144,10 @@ C:\Users\s2859689\Google Drive\GU Drive\Documents\GitHub\TM1\tm1\TM1 MDX Player\
 C:\Users\s2859689\Google Drive\GU Drive\Documents\GitHub\TM1\tm1\TM1 MDX Player\TM1 MDX Player\obj\x86\Debug\TM1 MDX Player.exe
 C:\Users\s2859689\Google Drive\GU Drive\Documents\GitHub\TM1\tm1\TM1 MDX Player\TM1 MDX Player\obj\x86\Debug\TM1 MDX Player.xml
 C:\Users\s2859689\Google Drive\GU Drive\Documents\GitHub\TM1\tm1\TM1 MDX Player\TM1 MDX Player\obj\x86\Debug\TM1 MDX Player.pdb
+C:\Users\s2859689\Google Drive\GU Drive\Documents\GitHub\TM1\tm1\TM1 MDX Player\TM1 MDX Player\obj\x86\Debug\TM1MDXPlayer.AboutForm.resources
+C:\Users\s2859689\Google Drive\GU Drive\Documents\GitHub\TM1\tm1\TM1 MDX Player\TM1 MDX Player\obj\x86\Debug\TM1MDXPlayer.MDXForm.resources
+C:\Users\s2859689\Google Drive\GU Drive\Documents\GitHub\TM1\tm1\TM1 MDX Player\TM1 MDX Player\obj\x86\Debug\TM1MDXPlayer.DataForm.resources
+C:\Users\s2859689\Google Drive\GU Drive\Documents\GitHub\TM1\tm1\TM1 MDX Player\TM1 MDX Player\obj\x86\Debug\TM1MDXPlayer.MainForm.resources
+C:\Users\s2859689\Google Drive\GU Drive\Documents\GitHub\TM1\tm1\TM1 MDX Player\TM1 MDX Player\obj\x86\Debug\TM1MDXPlayer.ParaForm.resources
+C:\Users\s2859689\Google Drive\GU Drive\Documents\GitHub\TM1\tm1\TM1 MDX Player\TM1 MDX Player\obj\x86\Debug\TM1MDXPlayer.LoginForm.resources
+C:\Users\s2859689\Google Drive\GU Drive\Documents\GitHub\TM1\tm1\TM1 MDX Player\TM1 MDX Player\obj\x86\Debug\TM1MDXPlayer.Resources.resources

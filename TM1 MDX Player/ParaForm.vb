@@ -1,5 +1,5 @@
 ﻿Option Explicit On
-Imports Applix.TM1.API
+'Imports Applix.TM1.API
 
 Public Class ParaForm
 
